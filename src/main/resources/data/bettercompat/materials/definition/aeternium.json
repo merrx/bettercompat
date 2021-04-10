@@ -1,0 +1,19 @@
+{
+  "craftable": false,
+  "tier": 5,
+  "sortOrder": 2,
+  "fluid": "bettercompat:molten_aeternium",
+  "fluidPerUnit": 144,
+  "textColor": "#6b807f",
+  "temperature": 1500,
+  "traits": [
+    {
+      "name": "tconstruct:lacerating",
+      "level": 2
+    },
+    {
+      "name": "tconstruct:enhanced",
+      "level": 3
+    }
+  ]
+}

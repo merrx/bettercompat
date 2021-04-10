@@ -1,0 +1,23 @@
+{
+  "materialId": "bettercompat:aeternium",
+  "stats": [
+    {
+      "id": "tconstruct:head",
+      "durability": 2200,
+      "miningSpeed": 10.0,
+      "harvestLevel": 5,
+      "attack": 8.5
+    },
+    {
+      "id": "tconstruct:handle",
+      "durability": 1.5,
+      "miningSpeed": 1.5,
+      "attackSpeed": 1.2,
+      "attackDamage": 1.5
+    },
+    {
+      "id": "tconstruct:extra",
+      "durability": 400
+    }
+  ]
+}

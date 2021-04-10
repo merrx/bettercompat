@@ -1,0 +1,19 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 2,
+  "fluid": "bettercompat:molten_thallasium",
+  "fluidPerUnit": 144,
+  "textColor": "#79cfd2",
+  "temperature": 1000,
+  "traits": [
+    {
+      "name": "tconstruct:reinforced",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:holy",
+      "level": 1
+    }
+  ]
+}

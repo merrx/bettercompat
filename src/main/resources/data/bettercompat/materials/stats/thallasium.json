@@ -1,0 +1,23 @@
+{
+  "materialId": "bettercompat:thallasium",
+  "stats": [
+    {
+      "id": "tconstruct:head",
+      "durability": 350,
+      "miningSpeed": 7.0,
+      "harvestLevel": 3,
+      "attack": 5.5
+    },
+    {
+      "id": "tconstruct:handle",
+      "durability": 0.5,
+      "miningSpeed": 1.0,
+      "attackSpeed": 1.5,
+      "attackDamage": 1.0
+    },
+    {
+      "id": "tconstruct:extra",
+      "durability": 50
+    }
+  ]
+}
