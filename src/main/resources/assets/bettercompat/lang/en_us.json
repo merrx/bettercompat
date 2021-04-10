@@ -1,5 +1,9 @@
 {
   "fluid.bettercompat.molten_aeternium": "Molten Aeternium",
   "fluid.bettercompat.molten_terminite": "Molten Terminite",
-  "fluid.bettercompat.molten_thallasium": "Molten Thallasium"
+  "fluid.bettercompat.molten_thallasium": "Molten Thallasium",
+
+  "material.bettercompat.aeternium": "Aeternium",
+  "material.bettercompat.terminite": "Terminite",
+  "material.bettercompat.thallasium": "Thallasium"
 }
