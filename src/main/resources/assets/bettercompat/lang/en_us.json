@@ -3,6 +3,10 @@
   "fluid.bettercompat.molten_terminite": "Molten Terminite",
   "fluid.bettercompat.molten_thallasium": "Molten Thallasium",
 
+  "item.bettercompat.aeternium_bucket": "Molten Aeternium Bucket",
+  "item.bettercompat.terminite_bucket": "Molten Termintie Bucket",
+  "item.bettercompat.thallasium_bucket": "Molten Thallasium Bucket",
+
   "material.bettercompat.aeternium": "Aeternium",
   "material.bettercompat.terminite": "Terminite",
   "material.bettercompat.thallasium": "Thallasium"

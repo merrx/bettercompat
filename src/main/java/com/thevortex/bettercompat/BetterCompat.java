@@ -1,7 +1,10 @@
 package com.thevortex.bettercompat;
 
 import com.thevortex.bettercompat.ref.Reference;
-import com.thevortex.bettercompat.registry.RegistryData;
+import com.thevortex.bettercompat.registry.BlockReg;
+import com.thevortex.bettercompat.registry.FluidReg;
+import com.thevortex.bettercompat.registry.ItemReg;
+
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -17,7 +20,10 @@ public class BetterCompat
     public BetterCompat() {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        RegistryData.FLUIDS.register(modEventBus);
+        FluidReg.FLUIDS.register(modEventBus);
+        BlockReg.BLOCKS.register(modEventBus);
+        ItemReg.ITEMS.register(modEventBus);
+        
     }
 
 
