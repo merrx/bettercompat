@@ -1,0 +1,23 @@
+{
+  "materialId": "bettercompat:netheriteopal",
+  "stats": [
+    {
+      "id": "tconstruct:head",
+      "durability": 6300,
+      "miningSpeed": 10.0,
+      "harvestLevel": 5,
+      "attack": 10.0
+    },
+    {
+      "id": "tconstruct:handle",
+      "durability": 1.5,
+      "miningSpeed": 1.2,
+      "attackSpeed": 1.5,
+      "attackDamage": 1.2
+    },
+    {
+      "id": "tconstruct:extra",
+      "durability": 400
+    }
+  ]
+}

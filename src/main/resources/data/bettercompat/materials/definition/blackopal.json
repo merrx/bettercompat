@@ -1,0 +1,15 @@
+{
+  "craftable": false,
+  "tier": 5,
+  "sortOrder": 2,
+  "fluid": "bettercompat:molten_blackopal",
+  "fluidPerUnit": 250,
+  "textColor": "#130935",
+  "temperature": 1000,
+  "traits": [
+    {
+      "name": "tconstruct:insatiable",
+      "level": 2
+    }
+  ]
+}

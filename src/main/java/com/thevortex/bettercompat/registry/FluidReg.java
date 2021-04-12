@@ -21,6 +21,7 @@ public class FluidReg {
 
     
     //materials
+    	//better end
     public static final RegistryObject<ForgeFlowingFluid.Source> THALLASIUM = FLUIDS.register("molten_thallasium",
             () -> new ForgeFlowingFluid.Source(makeMoltenThallasiumProperties()));
     public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_THALLASIUM = FLUIDS.register("flowing_molten_thallasium",
@@ -35,9 +36,25 @@ public class FluidReg {
             () -> new ForgeFlowingFluid.Source(makeMoltenAeterniumProperties()));
     public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_AETERNIUM = FLUIDS.register("flowing_molten_aeternium",
             () -> new ForgeFlowingFluid.Flowing(makeMoltenAeterniumProperties()));
-
+    
+    	//ores above diamonds
+    public static final RegistryObject<ForgeFlowingFluid.Source> AMETHYST = FLUIDS.register("molten_amethyst",
+            () -> new ForgeFlowingFluid.Source(makeMoltenAmethystProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_AMETHYST = FLUIDS.register("flowing_molten_amethyst",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenAmethystProperties()));
+    
+    public static final RegistryObject<ForgeFlowingFluid.Source> BLACKOPAL = FLUIDS.register("molten_blackopal",
+            () -> new ForgeFlowingFluid.Source(makeMoltenBlackOpalProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_BLACKOPAL = FLUIDS.register("flowing_molten_blackopal",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenBlackOpalProperties()));
+    
+    public static final RegistryObject<ForgeFlowingFluid.Source> NETHERITEOPAL = FLUIDS.register("molten_netheriteopal",
+            () -> new ForgeFlowingFluid.Source(makeMoltenNetheriteOpalProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_NETHERITEOPAL = FLUIDS.register("flowing_molten_netheriteopal",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenNetheriteOpalProperties()));
     
     //molten material properties
+    	//better end
     private static ForgeFlowingFluid.Properties makeMoltenThallasiumProperties() {
         return new ForgeFlowingFluid.Properties(THALLASIUM, flowing_THALLASIUM,
                 FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF79CFD2)
@@ -57,5 +74,27 @@ public class FluidReg {
                 FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF6B807F)
                         .luminosity(15).density(2000).viscosity(10000).temperature(1500).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
                 .bucket(ItemReg.AETERNIUM_BUCKET).block(BlockReg.MOLTEN_AETERNIUM).explosionResistance(1000F).tickRate(9);
+    }
+    
+    	//ores above diamonds
+    private static ForgeFlowingFluid.Properties makeMoltenAmethystProperties() {
+        return new ForgeFlowingFluid.Properties(AMETHYST, flowing_AMETHYST,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFFB859CB)
+                        .luminosity(15).density(2000).viscosity(10000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                .bucket(ItemReg.AMETHYST_BUCKET).block(BlockReg.MOLTEN_AMETHYST).explosionResistance(1000F).tickRate(9);
+    }
+    
+    private static ForgeFlowingFluid.Properties makeMoltenBlackOpalProperties() {
+        return new ForgeFlowingFluid.Properties(BLACKOPAL, flowing_BLACKOPAL,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF130935)
+                        .luminosity(15).density(2000).viscosity(10000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                .bucket(ItemReg.BLACKOPAL_BUCKET).block(BlockReg.MOLTEN_BLACKOPAL).explosionResistance(1000F).tickRate(9);
+    }
+    
+    private static ForgeFlowingFluid.Properties makeMoltenNetheriteOpalProperties() {
+        return new ForgeFlowingFluid.Properties(NETHERITEOPAL, flowing_NETHERITEOPAL,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF000017)
+                        .luminosity(15).density(2000).viscosity(10000).temperature(1500).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                .bucket(ItemReg.NETHERITEOPAL_BUCKET).block(BlockReg.MOLTEN_NETHERITEOPAL).explosionResistance(1000F).tickRate(9);
     }
 }

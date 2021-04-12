@@ -9,5 +9,17 @@
 
   "material.bettercompat.aeternium": "Aeternium",
   "material.bettercompat.terminite": "Terminite",
-  "material.bettercompat.thallasium": "Thallasium"
+  "material.bettercompat.thallasium": "Thallasium",
+
+  "fluid.bettercompat.molten_amethyst": "Molten Amethyst",
+  "fluid.bettercompat.molten_blackopal": "Molten Black Opal",
+  "fluid.bettercompat.molten_netheriteopal": "Molten Netherite Opal",
+
+  "item.bettercompat.amethyst_bucket": "Molten Amethyst Bucket",
+  "item.bettercompat.blackopal_bucket": "Molten Black Opal Bucket",
+  "item.bettercompat.netheriteopal_bucket": "Molten Netherite Opal Bucket",
+
+  "material.bettercompat.amethyst": "Amethyst",
+  "material.bettercompat.blackopal": "Black Opal",
+  "material.bettercompat.netheriteopal": "Netherite Opal"
 }

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:gem_cast"
+  },
+  "fluid": {
+    "name": "bettercompat:molten_amethyst",
+    "amount": 250
+  },
+  "result": "oresabovediamonds:amethyst",
+  "cooling_time": 85,
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+      }
+  ]
+}

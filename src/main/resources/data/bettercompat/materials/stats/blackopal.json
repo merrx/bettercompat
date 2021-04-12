@@ -1,0 +1,23 @@
+{
+  "materialId": "bettercompat:blackopal",
+  "stats": [
+    {
+      "id": "tconstruct:head",
+      "durability": 5200,
+      "miningSpeed": 10.0,
+      "harvestLevel": 5,
+      "attack": 9.0
+    },
+    {
+      "id": "tconstruct:handle",
+      "durability": 1.3,
+      "miningSpeed": 1.0,
+      "attackSpeed": 1.5,
+      "attackDamage": 1.2
+    },
+    {
+      "id": "tconstruct:extra",
+      "durability": 350
+    }
+  ]
+}

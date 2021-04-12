@@ -1,0 +1,19 @@
+{
+  "craftable": false,
+  "tier": 5,
+  "sortOrder": 2,
+  "fluid": "bettercompat:molten_netheriteopal",
+  "fluidPerUnit": 250,
+  "textColor": "#000017",
+  "temperature": 1500,
+  "traits": [
+    {
+      "name": "tconstruct:insatiable",
+      "level": 2
+    },
+    {
+      "name": "tconstruct:netherite",
+      "level": 1
+    }
+  ]
+}

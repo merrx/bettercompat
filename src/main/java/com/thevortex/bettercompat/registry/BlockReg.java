@@ -13,6 +13,7 @@ public class BlockReg {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
             Reference.MOD_ID);
     
+    //better end
     public static final RegistryObject<FlowingFluidBlock> MOLTEN_THALLASIUM = BLOCKS
             .register("molten_thallasium_block", () -> new FlowingFluidBlock(FluidReg.THALLASIUM,
                     Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
@@ -22,5 +23,16 @@ public class BlockReg {
     public static final RegistryObject<FlowingFluidBlock> MOLTEN_AETERNIUM = BLOCKS
             .register("molten_aeternium_block", () -> new FlowingFluidBlock(FluidReg.AETERNIUM,
                     Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
-
+    
+    //ores above diamonds
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_AMETHYST = BLOCKS
+            .register("molten_amethyst_block", () -> new FlowingFluidBlock(FluidReg.AMETHYST,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_BLACKOPAL = BLOCKS
+            .register("molten_blackopal_block", () -> new FlowingFluidBlock(FluidReg.BLACKOPAL,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_NETHERITEOPAL = BLOCKS
+            .register("molten_netheriteopal_block", () -> new FlowingFluidBlock(FluidReg.NETHERITEOPAL,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    
 }
