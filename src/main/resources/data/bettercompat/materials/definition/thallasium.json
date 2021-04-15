@@ -8,10 +8,6 @@
   "temperature": 1000,
   "traits": [
     {
-      "name": "tconstruct:reinforced",
-      "level": 1
-    },
-    {
       "name": "tconstruct:holy",
       "level": 1
     }
