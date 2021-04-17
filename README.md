@@ -9,7 +9,7 @@ A Tinkers Construct addon that adds support for modded materials
     Mods looking into:
         Botania
         Mystical Agriculture
-        Mekanism
         Druidcraft
-        Eidolon
-        and others
+        The Outer End
+        End: Reborn
+        Aquaculture
