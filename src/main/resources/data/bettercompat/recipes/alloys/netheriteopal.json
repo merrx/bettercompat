@@ -3,16 +3,16 @@
   "inputs": [
     {
       "name": "tconstruct:molten_debris",
-      "amount": 576
+      "amount": 288
     },
     {
       "name": "bettercompat:molten_blackopal",
-      "amount": 144
+      "amount": 250
     }
   ],
   "result": {
     "fluid": "bettercompat:molten_netheriteopal",
-    "amount": 144
+    "amount": 250
   },
   "temperature": 1250
 }

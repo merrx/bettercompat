@@ -1,10 +1,10 @@
 {
   "type": "tconstruct:melting",
   "ingredient": {
-    "tag": "forge:gems/black_opal"
+    "tag": "forge:gems/moonstone"
   },
   "result": {
-    "fluid": "bettercompat:molten_blackopal",
+    "fluid": "bettercompat:molten_moonstone",
     "amount": 250
   },
   "temperature": 1000,

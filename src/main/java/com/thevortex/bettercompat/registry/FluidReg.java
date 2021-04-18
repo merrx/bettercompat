@@ -53,26 +53,39 @@ public class FluidReg {
     public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_NETHERITEOPAL = FLUIDS.register("flowing_molten_netheriteopal",
             () -> new ForgeFlowingFluid.Flowing(makeMoltenNetheriteOpalProperties()));
     
+    	//endreborn
+    public static final RegistryObject<ForgeFlowingFluid.Source> ENDORIUM = FLUIDS.register("molten_endorium",
+            () -> new ForgeFlowingFluid.Source(makeMoltenEndoriumProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_ENDORIUM = FLUIDS.register("flowing_molten_endorium",
+    		() -> new ForgeFlowingFluid.Flowing(makeMoltenEndoriumProperties()));
+    
+    	//druidcraft
+    public static final RegistryObject<ForgeFlowingFluid.Source> MOONSTONE = FLUIDS.register("molten_moonstone",
+            () -> new ForgeFlowingFluid.Source(makeMoltenMoonstoneProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_MOONSTONE = FLUIDS.register("flowing_molten_moonstone",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenMoonstoneProperties()));
+    
+    
     //molten material properties
     	//better end
     private static ForgeFlowingFluid.Properties makeMoltenThallasiumProperties() {
         return new ForgeFlowingFluid.Properties(THALLASIUM, flowing_THALLASIUM,
                 FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF79CFD2)
-                        .luminosity(15).density(2000).viscosity(10000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
         		.bucket(ItemReg.THALLASIUM_BUCKET).block(BlockReg.MOLTEN_THALLASIUM).explosionResistance(1000F).tickRate(9);
     }
 
     private static ForgeFlowingFluid.Properties makeMoltenTerminiteProperties() {
         return new ForgeFlowingFluid.Properties(TERMINITE, flowing_TERMINITE,
                 FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF34C8BD)
-                        .luminosity(15).density(2000).viscosity(10000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
                 .bucket(ItemReg.TERMINITE_BUCKET).block(BlockReg.MOLTEN_TERMINITE).explosionResistance(1000F).tickRate(9);
     }
 
     private static ForgeFlowingFluid.Properties makeMoltenAeterniumProperties() {
         return new ForgeFlowingFluid.Properties(AETERNIUM, flowing_AETERNIUM,
                 FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF6B807F)
-                        .luminosity(15).density(2000).viscosity(10000).temperature(1500).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1500).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
                 .bucket(ItemReg.AETERNIUM_BUCKET).block(BlockReg.MOLTEN_AETERNIUM).explosionResistance(1000F).tickRate(9);
     }
     
@@ -80,21 +93,37 @@ public class FluidReg {
     private static ForgeFlowingFluid.Properties makeMoltenAmethystProperties() {
         return new ForgeFlowingFluid.Properties(AMETHYST, flowing_AMETHYST,
                 FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFFB859CB)
-                        .luminosity(15).density(2000).viscosity(10000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
                 .bucket(ItemReg.AMETHYST_BUCKET).block(BlockReg.MOLTEN_AMETHYST).explosionResistance(1000F).tickRate(9);
     }
     
     private static ForgeFlowingFluid.Properties makeMoltenBlackOpalProperties() {
         return new ForgeFlowingFluid.Properties(BLACKOPAL, flowing_BLACKOPAL,
                 FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF130935)
-                        .luminosity(15).density(2000).viscosity(10000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
                 .bucket(ItemReg.BLACKOPAL_BUCKET).block(BlockReg.MOLTEN_BLACKOPAL).explosionResistance(1000F).tickRate(9);
     }
     
     private static ForgeFlowingFluid.Properties makeMoltenNetheriteOpalProperties() {
         return new ForgeFlowingFluid.Properties(NETHERITEOPAL, flowing_NETHERITEOPAL,
                 FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF000017)
-                        .luminosity(15).density(2000).viscosity(10000).temperature(1500).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1500).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
                 .bucket(ItemReg.NETHERITEOPAL_BUCKET).block(BlockReg.MOLTEN_NETHERITEOPAL).explosionResistance(1000F).tickRate(9);
+    }
+    
+    	//endreborn
+    private static ForgeFlowingFluid.Properties makeMoltenEndoriumProperties() {
+        return new ForgeFlowingFluid.Properties(ENDORIUM, flowing_ENDORIUM,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF105A4B)
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                .bucket(ItemReg.ENDORIUM_BUCKET).block(BlockReg.MOLTEN_ENDORIUM).explosionResistance(1000F).tickRate(9);
+    }
+    
+    	//druidcraft
+    private static ForgeFlowingFluid.Properties makeMoltenMoonstoneProperties() {
+        return new ForgeFlowingFluid.Properties(MOONSTONE, flowing_MOONSTONE,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF6EB2EA)
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                .bucket(ItemReg.MOONSTONE_BUCKET).block(BlockReg.MOLTEN_MOONSTONE).explosionResistance(1000F).tickRate(9);
     }
 }

@@ -36,4 +36,14 @@ public class ItemReg {
 			() -> new BucketItem(FluidReg.NETHERITEOPAL,
 					new BucketItem.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(ItemGroup.TAB_MISC)));
 	
+	//endreborn
+	public static final RegistryObject<Item> ENDORIUM_BUCKET = ITEMS.register("endorium_bucket", 
+			() -> new BucketItem(FluidReg.ENDORIUM,
+					new BucketItem.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(ItemGroup.TAB_MISC)));
+	
+	//druidcraft
+	public static final RegistryObject<Item> MOONSTONE_BUCKET = ITEMS.register("moonstone_bucket", 
+			() -> new BucketItem(FluidReg.MOONSTONE,
+					new BucketItem.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(ItemGroup.TAB_MISC)));
+	
 }

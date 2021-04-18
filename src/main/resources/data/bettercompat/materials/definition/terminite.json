@@ -1,7 +1,7 @@
 
 {
   "craftable": false,
-  "tier": 4,
+  "tier": 3,
   "sortOrder": 2,
   "fluid": "bettercompat:molten_terminite",
   "fluidPerUnit": 144,

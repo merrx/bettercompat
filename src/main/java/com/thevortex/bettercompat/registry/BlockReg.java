@@ -35,4 +35,14 @@ public class BlockReg {
             .register("molten_netheriteopal_block", () -> new FlowingFluidBlock(FluidReg.NETHERITEOPAL,
                     Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
     
+    //endreborn
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_ENDORIUM = BLOCKS
+            .register("molten_endorium_block", () -> new FlowingFluidBlock(FluidReg.ENDORIUM,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    
+    //druidcraft
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_MOONSTONE = BLOCKS
+            .register("molten_moonstone_block", () -> new FlowingFluidBlock(FluidReg.MOONSTONE,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    
 }

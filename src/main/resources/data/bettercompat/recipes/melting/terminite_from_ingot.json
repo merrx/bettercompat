@@ -1,14 +1,14 @@
 {
   "type": "tconstruct:melting",
   "ingredient": {
-    "item": "betterendforge:terminite_ingot"
+    "tag": "forge:ingots/terminite"
   },
   "result": {
     "fluid": "bettercompat:molten_terminite",
     "amount": 144
   },
   "temperature": 1000,
-  "time": 100,
+  "time": 75,
   "conditions": [
       {
           "type": "forge:mod_loaded",

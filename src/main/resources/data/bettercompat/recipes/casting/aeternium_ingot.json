@@ -8,7 +8,7 @@
     "amount": 144
   },
   "result": "betterendforge:aeternium_ingot",
-  "cooling_time": 29,
+  "cooling_time": 85,
   "conditions": [
       {
           "type": "forge:mod_loaded",

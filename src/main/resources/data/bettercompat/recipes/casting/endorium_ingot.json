@@ -1,13 +1,13 @@
 {
   "type": "tconstruct:casting_table",
   "cast": {
-    "tag": "tconstruct:casts/single_use/ingot"
+    "item": "tconstruct:ingot_cast"
   },
   "fluid": {
-    "name": "bettercompat:molten_aeternium",
+    "name": "bettercompat:molten_endorium",
     "amount": 144
   },
-  "result": "betterendforge:aeternium_ingot",
+  "result": "endreborn:endorium_ingot",
   "cooling_time": 85,
   "conditions": [
       {

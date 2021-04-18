@@ -1,14 +1,14 @@
 {
   "type": "tconstruct:melting",
   "ingredient": {
-    "tag": "forge:gems/black_opal"
+    "tag": "forge:storage_blocks/endorium"
   },
   "result": {
-    "fluid": "bettercompat:molten_blackopal",
-    "amount": 250
+    "fluid": "bettercompat:molten_endorium",
+    "amount": 1296
   },
   "temperature": 1000,
-  "time": 75,
+  "time": 200,
   "conditions": [
       {
           "type": "forge:mod_loaded",

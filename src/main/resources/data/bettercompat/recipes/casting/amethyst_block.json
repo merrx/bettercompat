@@ -5,7 +5,7 @@
     "amount": 2250
   },
   "result": "oresabovediamonds:amethyst_block",
-  "cooling_time": 150,
+  "cooling_time": 200,
   "conditions": [
       {
           "type": "forge:mod_loaded",

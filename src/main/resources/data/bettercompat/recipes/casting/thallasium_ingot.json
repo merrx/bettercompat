@@ -8,7 +8,7 @@
     "amount": 144
   },
   "result": "betterendforge:thallasium_ingot",
-  "cooling_time": 104,
+  "cooling_time": 85,
   "conditions": [
       {
           "type": "forge:mod_loaded",

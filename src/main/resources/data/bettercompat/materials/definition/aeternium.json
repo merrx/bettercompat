@@ -1,6 +1,6 @@
 {
   "craftable": false,
-  "tier": 5,
+  "tier": 4,
   "sortOrder": 2,
   "fluid": "bettercompat:molten_aeternium",
   "fluidPerUnit": 144,

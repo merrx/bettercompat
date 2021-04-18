@@ -1,14 +1,14 @@
 {
   "craftable": false,
-  "tier": 2,
+  "tier": 4,
   "sortOrder": 2,
-  "fluid": "bettercompat:molten_thallasium",
+  "fluid": "bettercompat:molten_endorium",
   "fluidPerUnit": 144,
-  "textColor": "#79cfd2",
+  "textColor": "#105A4B",
   "temperature": 1000,
   "traits": [
     {
-      "name": "tconstruct:holy",
+      "name": "tconstruct:overlord",
       "level": 1
     }
   ]

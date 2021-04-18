@@ -1,18 +1,18 @@
 {
-  "materialId": "bettercompat:terminite",
+  "materialId": "bettercompat:endorium",
   "stats": [
     {
       "id": "tconstruct:head",
-      "durability": 1250,
+      "durability": 1200,
       "miningSpeed": 7.0,
-      "harvestLevel": 3,
-      "attack": 3.0
+      "harvestLevel": 5,
+      "attack": 4.0
     },
     {
       "id": "tconstruct:handle",
       "durability": 1.2,
-      "miningSpeed": 1.0,
-      "attackSpeed": 1.4,
+      "miningSpeed": 1.2,
+      "attackSpeed": 1.0,
       "attackDamage": 1.0
     },
     {

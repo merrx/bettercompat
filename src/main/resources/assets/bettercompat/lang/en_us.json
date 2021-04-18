@@ -21,5 +21,13 @@
 
   "material.bettercompat.amethyst": "Amethyst",
   "material.bettercompat.blackopal": "Black Opal",
-  "material.bettercompat.netheriteopal": "Netherite Opal"
+  "material.bettercompat.netheriteopal": "Netherite Opal",
+
+  "fluid.bettercompat.molten_moonstone": "Molten Moonstone",
+  "item.bettercompat.moonstone_bucket": "Molten Moonstone Bucket",
+  "material.bettercompat.moonstone": "Moonstone",
+
+  "fluid.bettercompat.molten_endorium": "Molten Endorium",
+  "item.bettercompat.endorium_bucket": "Molten Endorium Bucket",
+  "material.bettercompat.endorium": "Endorium"
 }
