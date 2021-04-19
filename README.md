@@ -4,12 +4,11 @@ A Tinkers Construct addon that adds support for modded materials
 
     Support Includes:
         Ores Above Diamonds
-        Better End     
+        Better End  
+        Druidcraft
+        End: Reborn
         
     Mods looking into:
-        Botania
+        Botania (working on)
         Mystical Agriculture
-        Druidcraft
-        The Outer End
-        End: Reborn
         Aquaculture
