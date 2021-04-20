@@ -1,11 +1,11 @@
 {
   "type": "tconstruct:casting_table",
   "cast": {
-    "item": "tconstruct:nugget_cast"
+    "item": "tconstruct:casts/multi_use/nugget"
   },
   "fluid": {
     "name": "bettercompat:molten_thallasium",
-    "amount": 144
+    "amount": 16
   },
   "result": "betterendforge:thallasium_nugget",
   "cooling_time": 29,

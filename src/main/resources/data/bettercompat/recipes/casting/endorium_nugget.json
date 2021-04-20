@@ -1,11 +1,11 @@
 {
   "type": "tconstruct:casting_table",
   "cast": {
-    "item": "tconstruct:nugget_cast"
+    "item": "tconstruct:casts/multi_use/nugget"
   },
   "fluid": {
     "name": "bettercompat:molten_endorium",
-    "amount": 144
+    "amount": 16
   },
   "result": "endreborn:endorium_nugget",
   "cooling_time": 29,
