@@ -2,7 +2,7 @@
   "type": "tconstruct:casting_basin",
   "fluid": {
     "name": "bettercompat:molten_moonstone",
-    "amount": 2250
+    "amount": 1296
   },
   "result": "druidcraft:moonstone_block",
   "cooling_time": 200,

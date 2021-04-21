@@ -1,11 +1,11 @@
 {
   "type": "tconstruct:casting_table",
   "cast": {
-    "item": "tconstruct:casts/multi_use/gem"
+    "tag": "tconstruct:casts/multi_use/gem"
   },
   "fluid": {
     "name": "bettercompat:molten_blackopal",
-    "amount": 250
+    "amount": 144
   },
   "result": "oresabovediamonds:black_opal",
   "cooling_time": 85,

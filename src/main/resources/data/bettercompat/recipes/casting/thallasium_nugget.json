@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:casting_table",
   "cast": {
-    "item": "tconstruct:casts/multi_use/nugget"
+    "tag": "tconstruct:casts/multi_use/nugget"
   },
   "fluid": {
     "name": "bettercompat:molten_thallasium",
