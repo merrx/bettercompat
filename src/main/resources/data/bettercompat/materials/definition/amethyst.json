@@ -3,7 +3,7 @@
   "tier": 4,
   "sortOrder": 2,
   "fluid": "bettercompat:molten_amethyst",
-  "fluidPerUnit": 250,
+  "fluidPerUnit": 144,
   "textColor": "#B859CB",
   "temperature": 1000,
   "traits": [

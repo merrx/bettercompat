@@ -3,7 +3,7 @@
   "tier": 5,
   "sortOrder": 2,
   "fluid": "bettercompat:molten_netheriteopal",
-  "fluidPerUnit": 250,
+  "fluidPerUnit": 144,
   "textColor": "#000017",
   "temperature": 1500,
   "traits": [

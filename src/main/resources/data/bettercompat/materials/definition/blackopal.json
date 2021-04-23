@@ -3,7 +3,7 @@
   "tier": 5,
   "sortOrder": 2,
   "fluid": "bettercompat:molten_blackopal",
-  "fluidPerUnit": 250,
+  "fluidPerUnit": 144,
   "textColor": "#130935",
   "temperature": 1000,
   "traits": [
