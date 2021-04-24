@@ -1,6 +1,6 @@
-package com.thevortex.bettercompat.registry;
+package com.bettercompat.main.registry;
 
-import com.thevortex.bettercompat.ref.Reference;
+import com.bettercompat.main.BetterCompat;
 
 import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemReg {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,
-            Reference.MOD_ID);
+            BetterCompat.MODID);
     
     //better end
 	public static final RegistryObject<Item> THALLASIUM_BUCKET = ITEMS.register("thallasium_bucket", 

@@ -1,6 +1,6 @@
-package com.thevortex.bettercompat.registry;
+package com.bettercompat.main.registry;
 
-import com.thevortex.bettercompat.ref.Reference;
+import com.bettercompat.main.BetterCompat;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.FlowingFluidBlock;
@@ -11,7 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class BlockReg {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
-            Reference.MOD_ID);
+            BetterCompat.MODID);
     
     //better end
     public static final RegistryObject<FlowingFluidBlock> MOLTEN_THALLASIUM = BLOCKS

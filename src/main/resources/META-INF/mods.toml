@@ -21,6 +21,6 @@ description="Adds support for additional molten forms of metals in the tinkers c
 [[dependencies.bettercompat]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5,1.17)"
+    versionRange="[1.16.5,)"
     ordering="NONE"
     side="BOTH"

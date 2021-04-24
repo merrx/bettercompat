@@ -1,6 +1,7 @@
-package com.thevortex.bettercompat.registry;
+package com.bettercompat.main.registry;
 
-import com.thevortex.bettercompat.ref.Reference;
+import com.bettercompat.main.BetterCompat;
+
 import net.minecraft.fluid.Fluid;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvents;
@@ -12,11 +13,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class FluidReg {
     public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS,
-            Reference.MOD_ID);
+            BetterCompat.MODID);
 
-    public static final ResourceLocation MOLTEN_STILL = new ResourceLocation(Reference.MOD_ID,
+    public static final ResourceLocation MOLTEN_STILL = new ResourceLocation(BetterCompat.MODID,
             "blocks/fluids/molten_metal_still");
-    public static final ResourceLocation MOLTEN_FLOW = new ResourceLocation(Reference.MOD_ID,
+    public static final ResourceLocation MOLTEN_FLOW = new ResourceLocation(BetterCompat.MODID,
             "blocks/fluids/molten_metal_flowing");
 
     
