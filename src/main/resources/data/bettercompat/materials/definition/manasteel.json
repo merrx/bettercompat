@@ -1,0 +1,15 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 2,
+  "fluid": "bettercompat:molten_manasteel",
+  "fluidPerUnit": 144,
+  "textColor": "#4196DC",
+  "temperature": 1000,
+  "traits": [
+    {
+      "name": "tconstruct:lightweight",
+      "level": 1
+    }
+  ]
+}

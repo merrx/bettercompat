@@ -1,0 +1,15 @@
+{
+  "craftable": false,
+  "tier": 4,
+  "sortOrder": 2,
+  "fluid": "bettercompat:molten_neptunium",
+  "fluidPerUnit": 144,
+  "textColor": "#0AE2A7",
+  "temperature": 1250,
+  "traits": [
+    {
+      "name": "tconstruct:experienced",
+      "level": 2
+    }
+  ]
+}

@@ -4,11 +4,11 @@ license="All rights reserved"
 
 [[mods]]
 modId="bettercompat" 
-version="0.1"
+version="0.2"
 displayName="Tinkers Better Compat"
 logoFile=""
 credits=""
-authors="thevortex, ianm1647"
+authors="ianm1647, thevortex"
 description="Adds support for additional molten forms of metals in the tinkers construct smeltery"
 
 

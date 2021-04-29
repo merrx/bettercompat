@@ -29,5 +29,31 @@
 
   "fluid.bettercompat.molten_endorium": "Molten Endorium",
   "item.bettercompat.endorium_bucket": "Molten Endorium Bucket",
-  "material.bettercompat.endorium": "Endorium"
+  "material.bettercompat.endorium": "Endorium",
+
+  "fluid.bettercompat.molten_manasteel": "Molten Manasteel",
+  "fluid.bettercompat.molten_elementium": "Molten Elementium",
+  "fluid.bettercompat.molten_terrasteel": "Molten Terrasteel",
+
+  "item.bettercompat.manasteel_bucket": "Molten Manasteel Bucket",
+  "item.bettercompat.elementium_bucket": "Molten Elementium Bucket",
+  "item.bettercompat.terrasteel_bucket": "Molten Terrasteel Bucket",
+
+  "material.bettercompat.livingwood": "Livingwood",
+  "material.bettercompat.manasteel": "Manasteel",
+  "material.bettercompat.elementium": "Elementium",
+  "material.bettercompat.terrasteel": "Terrasteel",
+
+  "fluid.bettercompat.molten_certus_quartz": "Molten Certus Quartz",
+  "fluid.bettercompat.molten_fluix": "Molten Fluix",
+
+  "item.bettercompat.certus_quartz_bucket": "Molten Certus Quartz Bucket",
+  "item.bettercompat.fluix_bucket": "Molten Fluix Bucket",
+
+  "material.bettercompat.certus_quartz": "Certus Quartz",
+  "material.bettercompat.fluix": "Fluix",
+
+  "fluid.bettercompat.molten_neptunium": "Molten Neptunium",
+  "item.bettercompat.neptunium_bucket": "Molten Neptunium Bucket",
+  "material.bettercompat.neptunium": "Neptunium"
 }

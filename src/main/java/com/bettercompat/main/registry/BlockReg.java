@@ -45,4 +45,28 @@ public class BlockReg {
             .register("molten_moonstone_block", () -> new FlowingFluidBlock(FluidReg.MOONSTONE,
                     Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
     
+    //botania
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_MANASTEEL = BLOCKS
+            .register("molten_manasteel_block", () -> new FlowingFluidBlock(FluidReg.MANASTEEL,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_ELEMENTIUM = BLOCKS
+            .register("molten_elementium_block", () -> new FlowingFluidBlock(FluidReg.ELEMENTIUM,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_TERRASTEEL = BLOCKS
+            .register("molten_terrasteel_block", () -> new FlowingFluidBlock(FluidReg.TERRASTEEL,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    
+    //ae2
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_CERTUS_QUARTZ = BLOCKS
+            .register("molten_certus_quartz_block", () -> new FlowingFluidBlock(FluidReg.CERTUS_QUARTZ,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_FLUIX = BLOCKS
+            .register("molten_fluix_block", () -> new FlowingFluidBlock(FluidReg.FLUIX,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    
+    //aquaculture
+    public static final RegistryObject<FlowingFluidBlock> MOLTEN_NEPTUNIUM = BLOCKS
+            .register("molten_neptunium_block", () -> new FlowingFluidBlock(FluidReg.NEPTUNIUM,
+                    Block.Properties.of(Material.LAVA).lightLevel((state) -> {	return 15;	}).randomTicks().strength(100.0F).noDrops()));
+    
 }

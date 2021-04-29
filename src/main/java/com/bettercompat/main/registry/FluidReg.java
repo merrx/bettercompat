@@ -66,6 +66,38 @@ public class FluidReg {
     public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_MOONSTONE = FLUIDS.register("flowing_molten_moonstone",
             () -> new ForgeFlowingFluid.Flowing(makeMoltenMoonstoneProperties()));
     
+    	//botania
+    public static final RegistryObject<ForgeFlowingFluid.Source> MANASTEEL = FLUIDS.register("molten_manasteel",
+            () -> new ForgeFlowingFluid.Source(makeMoltenManasteelProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_MANASTEEL = FLUIDS.register("flowing_molten_manasteel",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenManasteelProperties()));
+    
+    public static final RegistryObject<ForgeFlowingFluid.Source> ELEMENTIUM = FLUIDS.register("molten_elementium",
+            () -> new ForgeFlowingFluid.Source(makeMoltenElementiumProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_ELEMENTIUM = FLUIDS.register("flowing_molten_elementium",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenElementiumProperties()));
+    
+    public static final RegistryObject<ForgeFlowingFluid.Source> TERRASTEEL = FLUIDS.register("molten_terrasteel",
+            () -> new ForgeFlowingFluid.Source(makeMoltenTerrasteelProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_TERRASTEEL = FLUIDS.register("flowing_molten_terrasteel",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenTerrasteelProperties()));
+    
+    //ae2
+    public static final RegistryObject<ForgeFlowingFluid.Source> CERTUS_QUARTZ = FLUIDS.register("molten_certus_quartz",
+            () -> new ForgeFlowingFluid.Source(makeMoltenCertusQuartzProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_CERTUS_QUARTZ = FLUIDS.register("flowing_molten_certus_quartz",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenCertusQuartzProperties()));
+    
+    public static final RegistryObject<ForgeFlowingFluid.Source> FLUIX = FLUIDS.register("molten_fluix",
+            () -> new ForgeFlowingFluid.Source(makeMoltenFluixProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_FLUIX = FLUIDS.register("flowing_molten_fluix",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenFluixProperties()));
+    
+    //aquaculture
+    public static final RegistryObject<ForgeFlowingFluid.Source> NEPTUNIUM = FLUIDS.register("molten_neptunium",
+            () -> new ForgeFlowingFluid.Source(makeMoltenNeptuniumProperties()));
+    public static final RegistryObject<ForgeFlowingFluid.Flowing> flowing_NEPTUNIUM = FLUIDS.register("flowing_molten_neptunium",
+            () -> new ForgeFlowingFluid.Flowing(makeMoltenNeptuniumProperties()));
     
     //molten material properties
     	//better end
@@ -126,5 +158,50 @@ public class FluidReg {
                 FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF6EB2EA)
                         .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
                 .bucket(ItemReg.MOONSTONE_BUCKET).block(BlockReg.MOLTEN_MOONSTONE).explosionResistance(1000F).tickRate(9);
+    }
+    
+    	//botania
+    private static ForgeFlowingFluid.Properties makeMoltenManasteelProperties() {
+        return new ForgeFlowingFluid.Properties(MANASTEEL, flowing_MANASTEEL,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF4196DC)
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+        		.bucket(ItemReg.MANASTEEL_BUCKET).block(BlockReg.MOLTEN_MANASTEEL).explosionResistance(1000F).tickRate(9);
+    }
+
+    private static ForgeFlowingFluid.Properties makeMoltenElementiumProperties() {
+        return new ForgeFlowingFluid.Properties(ELEMENTIUM, flowing_ELEMENTIUM,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFFF697CB)
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                .bucket(ItemReg.ELEMENTIUM_BUCKET).block(BlockReg.MOLTEN_ELEMENTIUM).explosionResistance(1000F).tickRate(9);
+    }
+
+    private static ForgeFlowingFluid.Properties makeMoltenTerrasteelProperties() {
+        return new ForgeFlowingFluid.Properties(TERRASTEEL, flowing_TERRASTEEL,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF58FF0B)
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1500).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                .bucket(ItemReg.TERRASTEEL_BUCKET).block(BlockReg.MOLTEN_TERRASTEEL).explosionResistance(1000F).tickRate(9);
+    }
+    
+    //ae2
+    private static ForgeFlowingFluid.Properties makeMoltenCertusQuartzProperties() {
+        return new ForgeFlowingFluid.Properties(CERTUS_QUARTZ, flowing_CERTUS_QUARTZ,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFFDFEDFB)
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+        		.bucket(ItemReg.CERTUS_QUARTZ_BUCKET).block(BlockReg.MOLTEN_CERTUS_QUARTZ).explosionResistance(1000F).tickRate(9);
+    }
+
+    private static ForgeFlowingFluid.Properties makeMoltenFluixProperties() {
+        return new ForgeFlowingFluid.Properties(FLUIX, flowing_FLUIX,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF915DCD)
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1000).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                .bucket(ItemReg.FLUIX_BUCKET).block(BlockReg.MOLTEN_FLUIX).explosionResistance(1000F).tickRate(9);
+    }
+    
+    //aquaculture
+    private static ForgeFlowingFluid.Properties makeMoltenNeptuniumProperties() {
+        return new ForgeFlowingFluid.Properties(NEPTUNIUM, flowing_NEPTUNIUM,
+                FluidAttributes.builder(MOLTEN_STILL, MOLTEN_FLOW).overlay(MOLTEN_STILL).color(0xFF0AE2A7)
+                        .luminosity(15).density(3000).viscosity(6000).temperature(1250).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
+                .bucket(ItemReg.NEPTUNIUM_BUCKET).block(BlockReg.MOLTEN_NEPTUNIUM).explosionResistance(1000F).tickRate(9);
     }
 }

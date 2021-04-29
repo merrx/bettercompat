@@ -15,7 +15,6 @@ public class BetterCompat
 	
     public BetterCompat() {
 
-    	
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         FluidReg.FLUIDS.register(modEventBus);
         BlockReg.BLOCKS.register(modEventBus);

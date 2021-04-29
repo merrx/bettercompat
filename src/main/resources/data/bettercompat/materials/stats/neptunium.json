@@ -1,0 +1,23 @@
+{
+  "materialId": "bettercompat:neptunium",
+  "stats": [
+    {
+      "id": "tconstruct:head",
+      "durability": 2500,
+      "miningSpeed": 8.0,
+      "harvestLevel": 4,
+      "attack": 6.0
+    },
+    {
+      "id": "tconstruct:handle",
+      "durability": 1.0,
+      "miningSpeed": 1.0,
+      "attackSpeed": 1.2,
+      "attackDamage": 1.2
+    },
+    {
+      "id": "tconstruct:extra",
+      "durability": 100
+    }
+  ]
+}

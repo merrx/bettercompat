@@ -46,4 +46,28 @@ public class ItemReg {
 			() -> new BucketItem(FluidReg.MOONSTONE,
 					new BucketItem.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(ItemGroup.TAB_MISC)));
 	
+	//botania
+	public static final RegistryObject<Item> MANASTEEL_BUCKET = ITEMS.register("manasteel_bucket", 
+			() -> new BucketItem(FluidReg.MANASTEEL,
+					new BucketItem.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(ItemGroup.TAB_MISC)));
+	public static final RegistryObject<Item> ELEMENTIUM_BUCKET = ITEMS.register("elementium_bucket", 
+			() -> new BucketItem(FluidReg.ELEMENTIUM,
+					new BucketItem.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(ItemGroup.TAB_MISC)));
+	public static final RegistryObject<Item> TERRASTEEL_BUCKET = ITEMS.register("terrasteel_bucket", 
+			() -> new BucketItem(FluidReg.TERRASTEEL,
+					new BucketItem.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(ItemGroup.TAB_MISC)));
+	
+	//ae2
+	public static final RegistryObject<Item> CERTUS_QUARTZ_BUCKET = ITEMS.register("certus_quartz_bucket",
+			() -> new BucketItem(FluidReg.CERTUS_QUARTZ,
+					new BucketItem.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(ItemGroup.TAB_MISC)));
+	public static final RegistryObject<Item> FLUIX_BUCKET = ITEMS.register("fluix_bucket",
+			() -> new BucketItem(FluidReg.FLUIX,
+					new BucketItem.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(ItemGroup.TAB_MISC)));
+	
+	//aquaculture
+	public static final RegistryObject<Item> NEPTUNIUM_BUCKET = ITEMS.register("neptunium_bucket",
+			() -> new BucketItem(FluidReg.NEPTUNIUM,
+					new BucketItem.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(ItemGroup.TAB_MISC)));
+	
 }
