@@ -8,12 +8,8 @@
   "temperature": 1500,
   "traits": [
     {
-      "name": "tconstruct:insatiable",
+      "name": "bettercompat:lava_efficiency",
       "level": 2
-    },
-    {
-      "name": "tconstruct:netherite",
-      "level": 1
     }
   ]
 }

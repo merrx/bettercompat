@@ -53,7 +53,21 @@
   "material.bettercompat.certus_quartz": "Certus Quartz",
   "material.bettercompat.fluix": "Fluix",
 
-  "fluid.bettercompat.molten_neptunium": "Molten Neptunium",
-  "item.bettercompat.neptunium_bucket": "Molten Neptunium Bucket",
-  "material.bettercompat.neptunium": "Neptunium"
+  "effect.bettercompat.enderference": "Enderference",
+
+  "modifier.bettercompat.enderference": "Enderference",
+  "modifier.bettercompat.enderference.flavor": "Endermatic!",
+  "modifier.bettercompat.enderference.description": "Prevents enderman from teleporting on attack (currently doesn't work)",
+  "modifier.bettercompat.quartz_infused": "Quartz Infused",
+  "modifier.bettercompat.quartz_infused.flavor": "Clocky!",
+  "modifier.bettercompat.quartz_infused.description": "Damage is increased slightly due to quartz infusion",
+  "modifier.bettercompat.lava_efficiency": "Lava Efficiency",
+  "modifier.bettercompat.lava_efficiency.flavor": "Magmatic!",
+  "modifier.bettercompat.lava_efficiency.description": "Allows the user to mine faster and deal more damage while in lava",
+  "modifier.bettercompat.crystal_power": "Crystal Power",
+  "modifier.bettercompat.crystal_power.flavor": "Geode-like!",
+  "modifier.bettercompat.crystal_power.description": "Boosts the mining speed of the effected material",
+  "modifier.bettercompat.moonlight": "Moonlight",
+  "modifier.bettercompat.moonlight.flavor": "Lunar!",
+  "modifier.bettercompat.moonlight.description": "Buffs your tool during the night"
 }

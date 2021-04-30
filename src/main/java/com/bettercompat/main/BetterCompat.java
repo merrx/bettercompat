@@ -1,8 +1,10 @@
 package com.bettercompat.main;
 
-import com.bettercompat.main.registry.BlockReg;
-import com.bettercompat.main.registry.FluidReg;
-import com.bettercompat.main.registry.ItemReg;
+import com.bettercompat.main.init.BlockInit;
+import com.bettercompat.main.init.EffectInit;
+import com.bettercompat.main.init.FluidInit;
+import com.bettercompat.main.init.ItemInit;
+import com.bettercompat.main.init.ModifierInit;
 
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -16,9 +18,11 @@ public class BetterCompat
     public BetterCompat() {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        FluidReg.FLUIDS.register(modEventBus);
-        BlockReg.BLOCKS.register(modEventBus);
-        ItemReg.ITEMS.register(modEventBus);
+        FluidInit.FLUIDS.register(modEventBus);
+        BlockInit.BLOCKS.register(modEventBus);
+        ItemInit.ITEMS.register(modEventBus);
+        ModifierInit.MODIFIERS.register(modEventBus);
+        EffectInit.EFFECT.register(modEventBus);
         
     }
 

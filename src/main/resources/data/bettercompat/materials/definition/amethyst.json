@@ -8,8 +8,8 @@
   "temperature": 1000,
   "traits": [
     {
-      "name": "tconstruct:overcast",
-      "level": 2
+      "name": "bettercompat:crystal_power",
+      "level": 1
     }
   ]
 }
