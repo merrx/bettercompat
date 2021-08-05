@@ -1,6 +1,7 @@
 buildscript {
     repositories {
-        maven { url = 'https://files.minecraftforge.net/maven' }
+        maven { url = 'https://maven.minecraftforge.net/' }
+        maven { url = 'https://libraries.minecraft.net/' }
         mavenCentral()
     }
     dependencies {
@@ -11,6 +12,21 @@ apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
+
+repositories {
+    mavenLocal()
+    maven { // Vanilla
+        name 'Vanilla'
+        url 'https://libraries.minecraft.net/'
+    }
+    maven { // Forge
+        name 'ForgeFS'
+        url 'https://maven.minecraftforge.net/'
+    }
+    flatDir {
+        dirs "libs"
+    }
+}
 
 version = '0.2'
 group = 'com.bettercompat' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
