@@ -2,14 +2,6 @@
   "craftable": false,
   "tier": 3,
   "sortOrder": 2,
-  "fluid": "bettercompat:molten_certus_quartz",
-  "fluidPerUnit": 144,
   "textColor": "#DFEDFB",
-  "temperature": 800,
-  "traits": [
-    {
-      "name": "bettercompat:quartz_infused",
-      "level": 1
-    }
-  ]
+  "hidden": false
 }

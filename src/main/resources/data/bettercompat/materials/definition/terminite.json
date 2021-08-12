@@ -3,14 +3,6 @@
   "craftable": false,
   "tier": 3,
   "sortOrder": 2,
-  "fluid": "bettercompat:molten_terminite",
-  "fluidPerUnit": 144,
   "textColor": "#34c8bd",
-  "temperature": 1000,
-  "traits": [
-    {
-      "name": "tconstruct:sturdy",
-      "level": 2
-    }
-  ]
+  "hidden": false
 }

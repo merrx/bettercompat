@@ -2,18 +2,6 @@
   "craftable": false,
   "tier": 3,
   "sortOrder": 2,
-  "fluid": "bettercompat:molten_elementium",
-  "fluidPerUnit": 144,
   "textColor": "#F697CB",
-  "temperature": 1000,
-  "traits": [
-    {
-      "name": "tconstruct:lightweight",
-      "level": 1
-    },
-    {
-      "name": "tconstruct:temperate",
-      "level": 1
-    }
-  ]
+  "hidden": false
 }

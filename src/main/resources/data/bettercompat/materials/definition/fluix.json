@@ -2,14 +2,7 @@
   "craftable": false,
   "tier": 3,
   "sortOrder": 2,
-  "fluid": "bettercompat:molten_fluix",
-  "fluidPerUnit": 144,
   "textColor": "#915DCD",
   "temperature": 800,
-  "traits": [
-    {
-      "name": "tconstruct:lacerating",
-      "level": 1
-    }
-  ]
+  "hidden": false
 }

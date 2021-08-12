@@ -2,14 +2,6 @@
   "craftable": false,
   "tier": 4,
   "sortOrder": 2,
-  "fluid": "bettercompat:molten_moonstone",
-  "fluidPerUnit": 144,
   "textColor": "#6EB2EA",
-  "temperature": 1000,
-  "traits": [
-    {
-      "name": "bettercompat:moonlight",
-      "level": 1
-    }
-  ]
+  "hidden": false
 }

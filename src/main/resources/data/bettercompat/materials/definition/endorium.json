@@ -2,14 +2,6 @@
   "craftable": false,
   "tier": 4,
   "sortOrder": 2,
-  "fluid": "bettercompat:molten_endorium",
-  "fluidPerUnit": 144,
   "textColor": "#105A4B",
-  "temperature": 1000,
-  "traits": [
-    {
-      "name": "bettercompat:enderference",
-      "level": 1
-    }
-  ]
+  "hidden": false
 }

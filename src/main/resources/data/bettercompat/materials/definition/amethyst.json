@@ -2,14 +2,6 @@
   "craftable": false,
   "tier": 4,
   "sortOrder": 2,
-  "fluid": "bettercompat:molten_amethyst",
-  "fluidPerUnit": 144,
   "textColor": "#B859CB",
-  "temperature": 1000,
-  "traits": [
-    {
-      "name": "bettercompat:crystal_power",
-      "level": 1
-    }
-  ]
+  "hidden": false
 }

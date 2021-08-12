@@ -2,14 +2,6 @@
   "craftable": false,
   "tier": 4,
   "sortOrder": 2,
-  "fluid": "bettercompat:molten_terrasteel",
-  "fluidPerUnit": 144,
   "textColor": "#58FF0B",
-  "temperature": 1000,
-  "traits": [
-    {
-      "name": "tconstruct:overlord",
-      "level": 1
-    }
-  ]
+  "hidden": false
 }
