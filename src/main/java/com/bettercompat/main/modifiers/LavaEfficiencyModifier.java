@@ -6,6 +6,7 @@ import net.minecraft.util.Direction;
 import net.minecraftforge.event.entity.player.PlayerEvent.BreakSpeed;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.nbt.IModifierToolStack;
+import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
 
 public class LavaEfficiencyModifier extends Modifier {
 
@@ -14,14 +15,14 @@ public class LavaEfficiencyModifier extends Modifier {
 	}
 	
 	@Override
-	public float applyLivingDamage(IModifierToolStack tool, int level, LivingEntity attacker, LivingEntity target, float baseDamage, float damage, boolean isCritical, boolean fullyCharged) {
-		if(attacker.isEyeInFluid(FluidTags.LAVA)) {
-			return super.applyLivingDamage(tool, level, attacker, target, baseDamage, damage, isCritical, fullyCharged) * 2.0f;
+	public float getEntityDamage(IModifierToolStack tool, int level, ToolAttackContext context, float baseDamage, float damage) {
+		if(context.getAttacker().isEyeInFluid(FluidTags.LAVA)) {
+			return super.getEntityDamage(tool, level, context, baseDamage, damage) * 2.0f;
 		}
-		if(target.isEyeInFluid(FluidTags.LAVA)) {
-			return super.applyLivingDamage(tool, level, attacker, target, baseDamage, damage, isCritical, fullyCharged) * 2.0f;
+		if(context.getTarget().isEyeInFluid(FluidTags.LAVA)) {
+			return super.getEntityDamage(tool, level, context, baseDamage, damage) * 2.0f;
 		}
-		return super.applyLivingDamage(tool, level, attacker, target, baseDamage, damage, isCritical, fullyCharged);	
+		return super.getEntityDamage(tool, level, context, baseDamage, damage);	
 	}
 	
 	@Override

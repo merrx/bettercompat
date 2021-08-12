@@ -6,6 +6,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.monster.EndermanEntity;
 import net.minecraft.potion.EffectInstance;
 import slimeknights.tconstruct.library.modifiers.Modifier;
+import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
 import slimeknights.tconstruct.library.tools.nbt.IModifierToolStack;
 
 public class EnderferenceModifier extends Modifier {
@@ -15,16 +16,16 @@ public class EnderferenceModifier extends Modifier {
 	}
 	
 	@Override
-	public float applyLivingDamage(IModifierToolStack tool, int level, LivingEntity attacker, LivingEntity target, float baseDamage, float damage, boolean isCritical, boolean fullyCharged) {
-		int effectLevel = EffectInit.ENDERFERENCE.get().getLevel(attacker);
+	public float getEntityDamage(IModifierToolStack tool, int level, ToolAttackContext context, float baseDamage, float damage) {
+		int effectLevel = EffectInit.ENDERFERENCE.get().getLevel(context.getAttacker());
 		return damage + level * effectLevel / -3f;
 	}
 	
 	@Override
-	public int afterLivingHit(IModifierToolStack tool, int level, LivingEntity attacker, LivingEntity target, float damageDealt, boolean isCritical, boolean fullyCharged) {
-		int effectLevel = Math.min(8, EffectInit.ENDERFERENCE.get().getLevel(attacker) + 1);
-		if (target instanceof EndermanEntity) {
-				target.addEffect(new EffectInstance(EffectInit.ENDERFERENCE.get(), 400, effectLevel));
+	public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damageDealt) {
+		int effectLevel = Math.min(8, EffectInit.ENDERFERENCE.get().getLevel(context.getAttacker()) + 1);
+		if (context.getTarget() instanceof EndermanEntity) {
+			((EndermanEntity) context.getTarget()).addEffect(new EffectInstance(EffectInit.ENDERFERENCE.get(), 400, effectLevel));
 		}
 		return 0;
 	}

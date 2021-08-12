@@ -8,11 +8,13 @@ import net.minecraft.potion.EffectType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import slimeknights.tconstruct.library.effect.TinkerEffect;
+import slimeknights.tconstruct.common.TinkerEffect;
 
 public class EffectInit {
-    public static final DeferredRegister<Effect> EFFECT = DeferredRegister.create(ForgeRegistries.POTIONS, BetterCompat.MODID);
-    
-    public static final RegistryObject<TinkerEffect> ENDERFERENCE = EFFECT.register("enderference", () -> new EnderferenceEffect(EffectType.NEUTRAL, false));
+    public static final DeferredRegister<Effect> EFFECT = DeferredRegister.create(ForgeRegistries.POTIONS,
+            BetterCompat.MODID);
+
+    public static final RegistryObject<TinkerEffect> ENDERFERENCE = EFFECT.register("enderference",
+            () -> new EnderferenceEffect(EffectType.NEUTRAL, false));
 
 }
