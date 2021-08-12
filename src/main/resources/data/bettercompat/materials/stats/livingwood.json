@@ -1,23 +1,19 @@
 {
-  "materialId": "bettercompat:livingwood",
-  "stats": [
-    {
-      "id": "tconstruct:head",
+  "stats": {
+    "tconstruct:head": {
       "durability": 101,
       "miningSpeed": 5.1,
       "harvestLevel": 1,
       "attack": 0.8
     },
-    {
-      "id": "tconstruct:handle",
+    "tconstruct:handle": {
       "durability": 1.0,
       "miningSpeed": 1.0,
       "attackSpeed": 1.0,
       "attackDamage": 1.0
     },
-    {
-      "id": "tconstruct:extra",
+    "tconstruct:extra": {
       "durability": 20
     }
-  ]
+  }
 }

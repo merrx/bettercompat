@@ -1,23 +1,19 @@
 {
-  "materialId": "bettercompat:elementium",
-  "stats": [
-    {
-      "id": "tconstruct:head",
+  "stats": {
+    "tconstruct:head": {
       "durability": 900,
       "miningSpeed": 7.0,
       "harvestLevel": 3,
       "attack": 4.0
     },
-    {
-      "id": "tconstruct:handle",
+    "tconstruct:handle": {
       "durability": 1.0,
       "miningSpeed": 1.0,
       "attackSpeed": 1.0,
       "attackDamage": 1.1
     },
-    {
-      "id": "tconstruct:extra",
+    "tconstruct:extra": {
       "durability": 60
     }
-  ]
+  }
 }

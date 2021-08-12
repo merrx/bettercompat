@@ -1,23 +1,19 @@
 {
-  "materialId": "bettercompat:endorium",
-  "stats": [
-    {
-      "id": "tconstruct:head",
+  "stats": {
+    "tconstruct:head": {
       "durability": 1200,
       "miningSpeed": 7.0,
       "harvestLevel": 5,
       "attack": 4.0
     },
-    {
-      "id": "tconstruct:handle",
+    "tconstruct:handle": {
       "durability": 1.2,
       "miningSpeed": 1.2,
       "attackSpeed": 1.0,
       "attackDamage": 1.0
     },
-    {
-      "id": "tconstruct:extra",
+    "tconstruct:extra": {
       "durability": 150
     }
-  ]
+  }
 }
